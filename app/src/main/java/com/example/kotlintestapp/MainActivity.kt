@@ -210,6 +210,7 @@ fun boton1Pulsado(input1: String, input2: String, input3: String, input4: String
 {
     val g = Gerente(500.0)
     val d = Desarrollador("Kotlin")
+    print("${g.mostrarDetalles()}\n${d.mostrarDetalles()}")
     return "${g.mostrarDetalles()}\n${d.mostrarDetalles()}";
 }
 
