@@ -1,5 +1,9 @@
 package com.example.kotlintestapp
 
-class Desarrollador(var lenguaje: String) : Empleado("nombre", 1000.0) {
+class Desarrollador(var lenguaje: String) : Empleado("Ana", 1500.0) {
+
+    override fun mostrarDetalles(): String {
+        return super.mostrarDetalles() + "\nLenguaje: $lenguaje"
+    }
     
 }
