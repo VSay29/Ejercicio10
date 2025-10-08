@@ -208,8 +208,9 @@ fun inicio() {
 
 fun boton1Pulsado(input1: String, input2: String, input3: String, input4: String, input5: String): String?
 {
-    //return "Acción 1 ejecutada con ${input1}, ${input2}, ${input3}, ${input4}, ${input5}"
-    return null;
+    val g = Gerente(500.0)
+    val d = Desarrollador("Kotlin")
+    return "${g.mostrarDetalles()}\n${d.mostrarDetalles()}";
 }
 
 fun boton2Pulsado(input1: String, input2: String, input3: String, input4: String, input5: String): String?
